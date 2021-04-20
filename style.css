@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(black, blue);
+  color: aliceblue;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 3rem 0;
+}
+
+button {
+  padding: 1rem;
+  margin: 2rem 0;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 1rem;
+
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: 600px;
+  }
+}
